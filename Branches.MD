@@ -24,3 +24,23 @@ Git branches is a pointer to a special state of your changes that represent them
    ```bash
    git branch -a
    ```
+
+-  Create a new branch with name of <branch>
+
+   ```bash
+   git branch <branch>
+   ```
+
+-  Delete a branch with name of <branch>
+
+   ```bash
+   git branch -d <branch>  // Safe Delete
+   git branch -D <branch>  // Force Delete
+   ```
+
+-  Rename the current branch to <branch>
+
+   ```bash
+   git branch -m <branch>
+   git branch -M <branch>
+   ```
